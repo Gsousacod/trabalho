@@ -26,7 +26,7 @@ class Lista:
         for i in range(self.qtd):
             print(self.vetor[i])
 
-    def salvar_arquivo():
+    def salvar_arquivo(self):
         with open("alunos.csv", mode='w',newline='') as arquivo_csv:
             escritor_csv = csv.writer(arquivo_csv)
             escritor_csv.writerow(['cpf'],['Nome'],['Matricula'])
